@@ -1,0 +1,26 @@
+.myVideo {
+    margin: 0 auto;
+}
+
+
+.vjs-big-play-button {
+    width: 45px !important;
+    height: 45px !important;
+    background-color: orange !important;
+    border: none !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 0 5px #ffa60063;
+    animation: media 0.7s linear infinite !important;
+}
+
+@keyframes media {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
